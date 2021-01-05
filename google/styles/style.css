@@ -1,0 +1,245 @@
+*{
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+body{
+    font-size: 14px;
+    margin: 0;
+}
+
+.features{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 3em 0 0;
+}
+
+.fa-user-alt, .gmail, .images, .fa-th{
+    padding-right: 15px;
+}
+
+.googleimg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 170px;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 580px;
+    height: 45px;
+    background-color:white;
+    border-radius: 30px;
+    border: 1px rgb(216, 216, 216) solid;
+}
+
+.searchbar > i{
+    font-size: 15px;
+    padding: 15px;
+    color: rgb(177, 177, 177);
+}
+
+.searchbar > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.searchbar:hover{
+    color:rgb(177, 177, 177);
+    box-shadow: 0 0 5px 0.2px;
+    border: none;
+}
+
+.box {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 8px 5px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+.infos{
+    margin-top: 1em;
+    font-size: 13px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    border: 1px rgb(126, 126, 126) solid;
+    padding: 6px 2px 0px 2px;
+}
+
+.conteneur a{
+    text-decoration: none;
+}
+
+.conteneur .infos a{
+    color: #0021b6;
+}
+
+.conteneur .infos a:hover{
+    text-decoration: underline;
+    pointer-events: none;
+}
+.conteneur .secondpart a:hover{
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+.conteneur .english a:hover{
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+.blockinfo{
+    display: flex;
+    justify-content: center;
+}
+
+.english{
+    margin-top: 1.4em;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+
+footer .firstpart{
+    border-top: 1.5px solid #dbd8d8 ;
+    border-bottom: 1.5px solid #dbd8d8 ;
+    width: 100%;
+    height: 45px;
+}
+
+footer .firstpart > p{
+    font-size: 15px;
+    margin-left: 2.8em;
+}
+
+footer .secondpart{
+    display: flex;
+}
+footer .secondpart ul#menu li{
+    font-size: 14px;
+    display: inline;
+}
+
+footer .secondpart ul#menu li{
+    padding-right: 2em;
+}
+
+footer .secondpart .centerfooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-left: 13em;
+    margin-right: 17em;
+}
+
+footer .secondpart .centerfooter > a {
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer .secondpart .centerfooter > a:hover{
+    text-decoration: underline;
+}
+
+footer .secondpart .centerfooter > a:active{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+footer img{
+    margin-right: 0.4em;
+}
+
+footer .secondpart ul#menu li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+footer .secondpart ul#menu li a:hover{
+    text-decoration: underline;
+}
+footer .secondpart ul#menu li a:active{
+    color: red;
+}
+
+.vocal {
+    width: 24px;
+    margin-right: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.micro {
+    outline: none;
+}
+
+.account{
+    position: relative;
+    margin-top: -0.40em;
+    width: 90px;
+    height: 28px;
+    background-color: #4285f4;
+    border-radius: 2px;
+}
+
+.account > a{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    padding-left: 13px;
+    padding-top: 6px;
+    width: 90px;
+    height: 22px;
+    text-decoration: none;
+}
+
+.gmail a, .images a{
+    color: rgba(37, 37, 37, 0.87);
+    text-decoration: none;
+}
+
+.gmail a:hover, .images a:hover{
+    text-decoration: underline;
+    color:rgb(127, 131, 118)
+}
+.fa-th{
+    color: rgb(66, 66, 66);
+}
+.fa-th:hover{
+    color: black
+}
